@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to bottom, #c68159, #5d3b38);
+    background-color: #5d3b38;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    font-size: 5vw;
+    margin-bottom: 5px;
+}
+
+.game-container {
+    flex-wrap: wrap;
+    border-radius: 20px;
+    margin: 0 5%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 0;
+    display: flex;
+    border: 3px solid rgb(74, 73, 73);
+    background: linear-gradient(to bottom, rgb(233, 205, 165), rgb(175, 80, 55));
+}
+
+.vs {
+    font-size: 5vw;
+}
+
+.options {
+    display: flex;
+    gap: 5%;
+    width: 80%;
+}
+
+.middle {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.reload {
+    all: unset;
+    cursor: pointer;
+    font-size: 2vw;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid black;
+    color: white;
+    padding: 1% 0.5%;
+    background-color: #763131;
+    transition: 0.3s;
+}
+
+.reload:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.user-container, .cpu-container {
+    border-radius: 20px;
+    display: flex;
+    background-color: #e9cca4;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 43%;
+}
+
+.cpu-container {
+    padding: 1% 1%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: #fdc8b9;
+}
+
+.user-container {
+    padding: 1% 1%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    background-color: #fdf9b9;
+}
+
+.options-papel, .options-piedra, .options-tijera {
+    overflow: hidden;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.options-cpu {
+    overflow: hidden;
+    border: 1px solid black;
+    font-size: 1.5vw;
+    border-radius: 30px;
+    transition: 0.4s;
+    width: 100%;
+}
+
+.options-papel:hover, .options-piedra:hover, .options-tijera:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.choice {
+    font-size: 2vw;
+}
+
+h1 {
+    font-size: 3vw;
+}
+
+.puntaje-container {
+    border-radius: 10px;
+    background-color: rgb(159, 160, 88);
+    font-size: 2.5vw; 
+    justify-content: center;
+    color: #fdf9b9;
+    display: flex;
+    border: 1px solid black;
+    width: 50%;
+    padding: 1% 2%;
+    margin: 1.5% 0;
+}
+
+.choice-cpu-img, .choice-user-img {
+    border-radius: 20px;
+    transition: opacity 0.5s ease-in-out;
+    width: 30%;
+}
+.opt{
+    width: 100%; 
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="top-container">
+      <article class="title-container">
+        <p id="title" class="title">
+          <b><i>Rock, Paper, Scissors</i></b>
+        </p>
+      </article>
+      <article class="cuerpo">
+        <article class="game-container">
+          <article class="user-container">
+            <h1>User</h1>
+            <div class="puntaje-container"><p id="puntaje">0</p></div>
+            <article class="options">
+              <div id="piedra" class="options-piedra">
+                <img class="opt" id="piedra-img" src="src\piedra.jpg" alt="" width="140px"  height="140px"/>
+                <p><B>Rock</B></p>
+              </div>
+              <div id="papel" class="options-papel">
+                <img class="opt" id="papel-img" src="src\papel.jpeg" alt="" width="140px"  height="140px"/>
+                <p><B>Paper</B></p>
+              </div>
+              <div id="tijera" class="options-tijera">
+                <img class="opt" id="tijera-img" src="src\tijeras.png" alt="" width="140px" height="140px"/>
+                <p><B>Scissors</B></p>
+              </div>
+            </article>
+            <p class="choice"><b>User Choice</b></p>
+            <img  id="choice-user-img" class="choice-user-img" src="src\incognita.png" alt=""/>
+          </article>
+          <article class="middle">
+            <p class="vs">VS</p>
+            <a class="reload" href="Index.html">Reload</a>
+          </article>
+          <article class="cpu-container">
+            <h1>CPU</h1>
+            <div class="puntaje-container"><p id="puntaje-cpu">0</p></div>
+            <article class="options">
+              <div class="options-cpu">
+                <img class="opt" src="src\piedra.jpg" alt="" width="140px" height="140px" />
+                <p><B>Rock</B></p>
+              </div>
+              <div class="options-cpu">
+                <img class="opt" src="src\papel.jpeg" alt="" width="140px" height="140px" />
+                <p><B>Paper</B></p>
+              </div>
+              <div class="options-cpu">
+                <img class="opt" src="src\tijeras.png" alt="" width="140px" height="140px" />
+                <p><B>Scissors</B></p>
+              </div>
+            </article>
+            <p class="choice"><b>CPU Choice</b></p>
+            <img id="choice-cpu-img" class="choice-cpu-img" src="src\incognita.png" alt=""/>
+          </article>
+        </article>
+      </article>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
